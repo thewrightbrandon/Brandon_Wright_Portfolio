@@ -6,7 +6,7 @@ class Header extends React.Component {
 
   render = () => {
     return (
-      <nav className="navbar sticky">
+      <nav className="navbar fixed-top">
         <div className="logoDiv">
           <a className="navbar-brand" href="/">
             <img id="logo" src="https://i.imgur.com/mYKM4dH.png" alt="logo" />

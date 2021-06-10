@@ -1,7 +1,14 @@
+/* HTML */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 /* BODY */
 
 body {
-  background: #5F8A8B;
+  background: #C5D4E7;
 }
 
 /* GENERAL FONTS */
@@ -9,12 +16,6 @@ body {
 
 
 /* HEADER */
-
-.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0
-}
 
 #logo {
   width: 100px;
@@ -37,7 +38,6 @@ body {
 
 .navbar {
   background-color: #333745;
-  position: relative;
   border-top: 3px solid ghostwhite;
   border-bottom: 3px solid ghostwhite;
 }
@@ -79,11 +79,24 @@ body {
 
 /* FOOTER */
 
-
+footer {
+  display: flex;
+  background-color: #333745;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  bottom: 0;
+  color: ghostwhite;
+  border-top: 1px solid ghostwhite;
+  border-bottom: 1px solid ghostwhite;
+}
 
 /* HOME */
 
-
+.homeDiv {
+  margin-top: 150px;
+  margin-bottom: 75px;
+}
 
 /* ABOUT */
 
@@ -91,7 +104,23 @@ body {
 
 /* PORTFOLIO */
 
+.portfolioDiv {
+  margin-top: 150px;
+  margin-bottom: 75px;
+}
 
+svg {
+  width: 75px;
+  height: 75px;
+}
+
+svg:hover {
+  transform: translateY(-10px);
+}
+
+p {
+  font-weight: bold;
+}
 
 /* CONTACT */
 
@@ -126,3 +155,12 @@ body {
   }
 
   /* MIN WIDTH */
+
+  @media screen and (min-width: 1100px) {
+
+    svg {
+      width: 125px;
+      height: 125px;
+    }
+
+  }
