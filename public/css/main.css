@@ -100,7 +100,10 @@ footer {
 
 /* ABOUT */
 
-
+.aboutDiv {
+  margin-top: 150px;
+  margin-bottom: 75px;
+}
 
 /* PORTFOLIO */
 
@@ -124,7 +127,10 @@ p {
 
 /* CONTACT */
 
-
+.contactDiv {
+  margin-top: 150px;
+  margin-bottom: 75px;
+}
 
 /* ANIMATIONS */
 
