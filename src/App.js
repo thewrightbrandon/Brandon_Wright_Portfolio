@@ -15,7 +15,7 @@ class App extends React.Component {
 
     return (
       <BrowserRouter>
-        <div className="container">
+        <div className="">
           <Header />
             <Switch>
               <Route exact path='/'>
