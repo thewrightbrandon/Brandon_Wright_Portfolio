@@ -8,11 +8,11 @@ class Portfolio extends React.Component {
     return (
       <div className="portfolioDiv">
         <div className="container">
-          <h1 className="text-center mt-4">Résumé</h1>
+          <h1 className="text-center mt-4">Resumé</h1>
           <hr className="divider my-6" />
           <div className="resumeDiv">
             <a href="/" rel="noreferrer" target="_blank" >
-            <button className="btn btn-light resumeButton">Download Copy Here</button>
+              <button className="btn btn-light resumeButton">Click Here To Download My Resume</button>
             </a>
           </div>
         </div>

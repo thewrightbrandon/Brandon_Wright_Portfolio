@@ -5,7 +5,8 @@ class Contact extends React.Component {
   render = () => {
     return (
       <div className="container contactDiv">
-        <h1>Contact Component</h1>
+        <h1>I am excited to meet you, Let's Chat!</h1>
+        <h3>Where you can reach me:</h3>
       </div>
     )
   }
