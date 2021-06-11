@@ -7,17 +7,17 @@ class Portfolio extends React.Component {
   render = () => {
     return (
       <div className="portfolioDiv">
-        <div className="container">
+        <div className="container col-lg-10">
           <h1 className="text-center mt-4">Resumé</h1>
           <hr className="divider my-6" />
           <div className="resumeDiv">
             <a href="/" rel="noreferrer" target="_blank" >
-              <button className="btn btn-light resumeButton">Click Here To Download My Resume</button>
+              <button className="btn btn-light resumeButton">Click To Download Resume</button>
             </a>
           </div>
         </div>
         <Icons />
-        <div className="container">
+        <div className="container col-lg-10">
           <h1 className="text-center mt-4">Recent Projects</h1>
           <hr className="divider my-6" />
 
