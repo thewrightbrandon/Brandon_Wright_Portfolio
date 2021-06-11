@@ -31,97 +31,97 @@ class Icons extends React.Component {
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Javascript />
-                <p className="mb-4">Javascript</p>
+                <p className="mb-4 svgTags">Javascript</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Html />
-                <p className="mb-4">HTML-5</p>
+                <p className="mb-4 svgTags">HTML-5</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <CSS3 />
-                <p className="mb-4">CSS-3</p>
+                <p className="mb-4 svgTags">CSS-3</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <ReactLogo />
-                <p className="mb-4">React</p>
+                <p className="mb-4 svgTags">React</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Node />
-                <p className="mb-4">Node JS</p>
+                <p className="mb-4 svgTags">Node JS</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Express />
-                <p className="mb-4">Express</p>
+                <p className="mb-4 svgTags">Express</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Mongodb />
-                <p className="mb-4">MongoDB</p>
+                <p className="mb-4 svgTags">MongoDB</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Jquery />
-                <p className="mb-4">jQuery</p>
+                <p className="mb-4 svgTags">jQuery</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Postgres />
-                <p className="mb-4">PostgreSQL</p>
+                <p className="mb-4 svgTags">PostgreSQL</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Django />
-                <p className="mb-4">Django</p>
+                <p className="mb-4 svgTags">Django</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Python />
-                <p className="mb-4">Python</p>
+                <p className="mb-4 svgTags">Python</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Bootstrap />
-                <p className="mb-4">Bootstrap</p>
+                <p className="mb-4 svgTags">Bootstrap</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <C />
-                <p className="mb-4">C-Sharp</p>
+                <p className="mb-4 svgTags">C-Sharp</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Dotnet />
-                <p className="mb-4">.NET Core</p>
+                <p className="mb-4 svgTags">.NET Core</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Github />
-                <p className="mb-4">Github</p>
+                <p className="mb-4 svgTags">Github</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Git />
-                <p className="mb-4">Git</p>
+                <p className="mb-4 svgTags">Git</p>
               </div>
             </div>
           </div>

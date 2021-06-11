@@ -5,11 +5,13 @@ html {
   min-height: 100%;
 }
 
+
 /* BODY */
 
 body {
   background: #C5D4E7;
 }
+
 
 /* GENERAL FONTS */
 
@@ -106,12 +108,14 @@ h4 {
   margin: 0;
 }
 
+
 /* HOME */
 
 .homeDiv {
   margin-top: 150px;
   margin-bottom: 75px;
 }
+
 
 /* ABOUT */
 
@@ -120,11 +124,39 @@ h4 {
   margin-bottom: 75px;
 }
 
+
 /* PORTFOLIO */
 
 .portfolioDiv {
   margin-top: 150px;
   margin-bottom: 75px;
+}
+
+.resumeDiv {
+  display: flex;
+  justify-content: center;
+  margin: 8% 0 8%;
+}
+
+.resumeButton {
+  background-color: #333745;
+  border: 3px solid ghostwhite;
+  color: ghostwhite;
+  font-size: 1.8em;
+}
+
+.resumeButton:hover {
+  border: 3px solid #333745;
+  color: #333745;
+  font-weight: bold;
+}
+
+.resumeButton:active, .resumeButton:focus {
+  border: 3px solid #333745;
+  font-weight: bold;
+  text-decoration: underline;
+  box-shadow: none;
+  outline: none;
 }
 
 svg {
@@ -136,9 +168,41 @@ svg:hover {
   transform: translateY(-10px);
 }
 
-p {
+.svgTags {
   font-weight: bold;
 }
+
+.projectImage {
+  width: 100%;
+  display: block;
+  border: 3px solid #333745;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.projectImageDiv {
+  width: 47%;
+  background: ghostwhite;
+}
+
+.projectContextDiv {
+  width: 47%;
+  flex-direction: column;
+}
+
+.projectOne, .projectTwo, .projectThree, .projectFour {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 5% auto;
+}
+
+.projectTitle {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
 
 /* CONTACT */
 
@@ -147,13 +211,35 @@ p {
   margin-bottom: 75px;
 }
 
+
 /* ANIMATIONS */
+
 
 
 
 /* MEDIA QUERIES */
 
+
   /* MAX WIDTH */
+
+  @media screen and (max-width: 1100px) {
+
+    .projectOne, .projectTwo, .projectThree, .projectFour {
+      flex-direction: column;
+    }
+
+    .projectImageDiv {
+      width: 75%;
+      margin: 5% auto;
+    }
+
+    .projectContextDiv {
+      width: 75%;
+      margin: 5% auto;
+    }
+
+  }
+
 
   @media screen and (max-width: 700px) {
 
@@ -174,6 +260,7 @@ p {
       }
 
   }
+
 
   /* MIN WIDTH */
 
