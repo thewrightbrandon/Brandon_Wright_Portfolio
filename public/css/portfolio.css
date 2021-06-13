@@ -1,0 +1,111 @@
+/* PORTFOLIO */
+
+.portfolioDiv {
+  margin-top: 150px;
+  margin-bottom: 75px;
+}
+
+.resumeDiv {
+  display: flex;
+  justify-content: center;
+  margin: 8% 0 8%;
+}
+
+.resumeButton {
+  background-color: #333745;
+  border: 3px solid ghostwhite;
+  border-radius: 5px;
+  color: ghostwhite;
+  font-size: 1.6em;
+}
+
+.resumeButton:hover {
+  border: 3px solid #333745;
+  color: #333745;
+}
+
+.resumeButton:active, .resumeButton:focus {
+  border: 3px solid #333745;
+  text-decoration: underline;
+  box-shadow: none;
+  outline: none;
+}
+
+svg {
+  width: 75px;
+  height: 75px;
+}
+
+svg:hover {
+  transform: translateY(-10px);
+}
+
+.svgTags {
+  font-weight: bold;
+}
+
+.projectImage {
+  width: 100%;
+  display: block;
+  background: ghostwhite;
+  border: 3px solid #333745;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.projectImage:hover {
+  transform: translateY(-5px);
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+}
+
+.projectImageDiv {
+  width: 47%;
+}
+
+.projectContextDiv {
+  width: 47%;
+  flex-direction: column;
+}
+
+.projectOne, .projectTwo, .projectThree, .projectFour {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 5% auto;
+}
+
+.projectTitle {
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.contactLinkDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.toContactButton {
+  margin: 0 auto 5%;
+  background-color: #333745;
+  border: 3px solid ghostwhite;
+  border-radius: 5px;
+  color: ghostwhite;
+  font-size: 2.2em;
+}
+
+.toContactButton:hover {
+  border: 3px solid #333745;
+  background-color: ghostwhite;
+  color: #333745;
+}
+
+.toContactButton:active, ..toContactButton:focus {
+  border: 3px solid #333745;
+  text-decoration: underline;
+  background-color: ghostwhite;
+  color: #333745;
+  box-shadow: none;
+  outline: none;
+}

@@ -1,0 +1,28 @@
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333745;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  bottom: 0;
+  color: ghostwhite;
+  border-top: 1px solid ghostwhite;
+  border-bottom: 1px solid ghostwhite;
+  padding: 5px;
+}
+
+.footerLink {
+  margin: 0 3%;
+}
+
+.footerIcon {
+  width: 35px;
+}
+
+h4 {
+  margin: 0;
+}

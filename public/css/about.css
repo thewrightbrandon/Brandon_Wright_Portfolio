@@ -1,0 +1,93 @@
+/* ABOUT */
+
+.aboutH1 {
+  margin-top: 160px;
+  text-align: center;
+}
+
+.aboutH2 {
+  margin-bottom: 5%;
+}
+
+.aboutH4 {
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.aboutDiv {
+  /* margin-top: 150px; */
+  margin-bottom: 5%;
+  display: flex;
+}
+
+.aboutMeDiv {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 4% auto 0;
+}
+
+.aboutImage {
+  display: block;
+  width: 100%;
+  background-color: ghostwhite;
+  border: 3px solid #333745;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.peaceSign {
+  width: 150px;
+  margin-bottom: 5%;
+}
+
+.aboutImageDiv {
+  width: 47%;
+  max-width: 750px;
+}
+
+.aboutContextDiv {
+  width: 47%;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brandH1 {
+  text-align: center;
+}
+
+.brandDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% auto 8%;
+  text-align: center;
+}
+
+.toPortfolioButton {
+  background-color: #333745;
+  border: 3px solid ghostwhite;
+  border-radius: 5px;
+  color: ghostwhite;
+  font-size: 1.4em;
+  margin-top: 10%;
+  margin-bottom: 50px;
+}
+
+.toPortfolioButton:hover {
+  border: 3px solid #333745;
+  background-color: ghostwhite;
+  color: #333745;
+}
+
+.toPortfolioButton:active, .toPortfolioButton:focus {
+  border: 3px solid #333745;
+  text-decoration: underline;
+  background-color: ghostwhite;
+  color: #333745;
+  box-shadow: none;
+  outline: none;
+}

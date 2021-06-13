@@ -1,3 +1,10 @@
+@import "header.css";
+@import "footer.css";
+@import "home.css";
+@import "about.css";
+@import "portfolio.css";
+@import "contact.css";
+
 /* HTML */
 
 html {
@@ -14,279 +21,6 @@ body {
 
 
 /* GENERAL FONTS */
-
-
-
-/* HEADER */
-
-#logo {
-  width: 100px;
-  margin-left: 20%;
-}
-
-.logoDiv {
-  display: inline-flex;
-}
-
-.navbar-brand {
-  display: flex;
-  margin: 0;
-}
-
-.navbar > .container-fluid {
-  justify-content: flex-end;
-  margin-left: 0;
-}
-
-.navbar {
-  background-color: #333745;
-  border-top: 3px solid ghostwhite;
-  border-bottom: 3px solid ghostwhite;
-}
-
-.navbar-nav {
-  flex-flow: row;
-  width: 75%;
-  margin-right: 5%;
-}
-
-.nav-item {
-  margin-right: 5%;
-}
-
-.nav-end {
-  margin-right: 0;
-}
-
-.nav-link {
-  font-size: 1.6em;
-  color: ghostwhite;
-}
-
-.nav-link:hover {
-  font-weight: bold;
-  color: ghostwhite;
-}
-
-.nav-link:visited {
-  color: ghostwhite;
-}
-
-.nav-link:focus {
-  text-decoration: underline;
-  font-weight: bold;
-  color: ghostwhite;
-}
-
-
-/* FOOTER */
-
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #333745;
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
-  bottom: 0;
-  color: ghostwhite;
-  border-top: 1px solid ghostwhite;
-  border-bottom: 1px solid ghostwhite;
-  padding: 5px;
-}
-
-.footerLink {
-  margin: 0 3%;
-}
-
-.footerIcon {
-  width: 35px;
-}
-
-h4 {
-  margin: 0;
-}
-
-
-/* HOME */
-
-.homeDiv {
-  margin-top: 150px;
-  margin-bottom: 75px;
-}
-
-
-/* ABOUT */
-
-.aboutH1 {
-  margin-top: 160px;
-  text-align: center;
-}
-
-.aboutDiv {
-  /* margin-top: 150px; */
-  margin-bottom: 75px;
-  display: flex;
-}
-
-.aboutMeDiv {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin: 4% auto 0;
-}
-
-.aboutImage {
-  display: block;
-  width: 90%;
-  background-color: ghostwhite;
-  border: 3px solid #333745;
-  box-sizing: border-box;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-.aboutImageDiv {
-  width: 47%;
-  max-width: 750px;
-}
-
-.aboutContextDiv {
-  width: 47%;
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-}
-
-.brandH1 {
-  text-align: center;
-}
-
-.brandDiv {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5% auto 8%;
-  text-align: center;
-}
-
-.toPortfolioButton {
-  background-color: #333745;
-  border: 3px solid ghostwhite;
-  color: ghostwhite;
-  font-size: 1.2em;
-}
-
-.toPortfolioButton:hover {
-  border: 3px solid #333745;
-  background-color: ghostwhite;
-  color: #333745;
-}
-
-.toPortfolioButton:active, .toPortfolioButton:focus {
-  border: 3px solid #333745;
-  text-decoration: underline;
-  background-color: ghostwhite;
-  color: #333745;
-  box-shadow: none;
-  outline: none;
-}
-
-/* PORTFOLIO */
-
-.portfolioDiv {
-  margin-top: 150px;
-  margin-bottom: 75px;
-}
-
-.resumeDiv {
-  display: flex;
-  justify-content: center;
-  margin: 8% 0 8%;
-}
-
-.resumeButton {
-  background-color: #333745;
-  border: 3px solid ghostwhite;
-  color: ghostwhite;
-  font-size: 1.6em;
-}
-
-.resumeButton:hover {
-  border: 3px solid #333745;
-  color: #333745;
-}
-
-.resumeButton:active, .resumeButton:focus {
-  border: 3px solid #333745;
-  text-decoration: underline;
-  box-shadow: none;
-  outline: none;
-}
-
-svg {
-  width: 75px;
-  height: 75px;
-}
-
-svg:hover {
-  transform: translateY(-10px);
-}
-
-.svgTags {
-  font-weight: bold;
-}
-
-.projectImage {
-  width: 100%;
-  display: block;
-  background: ghostwhite;
-  border: 3px solid #333745;
-  box-sizing: border-box;
-  border-radius: 5px;
-  padding: 5px;
-}
-
-.projectImage:hover {
-  transform: translateY(-5px);
-  box-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
-}
-
-.projectImageDiv {
-  width: 47%;
-}
-
-.projectContextDiv {
-  width: 47%;
-  flex-direction: column;
-}
-
-.projectOne, .projectTwo, .projectThree, .projectFour {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin: 5% auto;
-}
-
-.projectTitle {
-  font-weight: bold;
-  text-decoration: underline;
-  text-align: center;
-}
-
-
-/* CONTACT */
-
-.contactDiv {
-  margin-top: 150px;
-  margin-bottom: 75px;
-}
-
-
-/* ANIMATIONS */
-
-
 
 
 /* MEDIA QUERIES */
@@ -312,6 +46,14 @@ svg:hover {
 
   }
 
+  @media screen and (max-width: 800px) {
+
+    .homeContent {
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }
 
   @media screen and (max-width: 700px) {
 
@@ -345,6 +87,14 @@ svg:hover {
     svg {
       width: 125px;
       height: 125px;
+    }
+
+  }
+
+  @media screen and (min-width: 1400px) {
+
+    .homeImage {
+      width: 350px;
     }
 
   }

@@ -1,0 +1,60 @@
+/* HEADER */
+
+#logo {
+  width: 100px;
+  margin-left: 20%;
+}
+
+.logoDiv {
+  display: inline-flex;
+}
+
+.navbar-brand {
+  display: flex;
+  margin: 0;
+}
+
+.navbar > .container-fluid {
+  justify-content: flex-end;
+  margin-left: 0;
+}
+
+.navbar {
+  background-color: #333745;
+  border-top: 3px solid ghostwhite;
+  border-bottom: 3px solid ghostwhite;
+}
+
+.navbar-nav {
+  flex-flow: row;
+  width: 75%;
+  margin-right: 5%;
+}
+
+.nav-item {
+  margin-right: 5%;
+}
+
+.nav-end {
+  margin-right: 0;
+}
+
+.nav-link {
+  font-size: 1.6em;
+  color: ghostwhite;
+}
+
+.nav-link:hover {
+  font-weight: bold;
+  color: ghostwhite;
+}
+
+.nav-link:visited {
+  color: ghostwhite;
+}
+
+.nav-link:focus {
+  text-decoration: underline;
+  font-weight: bold;
+  color: ghostwhite;
+}

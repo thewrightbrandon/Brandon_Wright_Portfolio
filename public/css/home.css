@@ -1,0 +1,73 @@
+/* HOME */
+
+.homeDiv {
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 75px;
+  display: flex;
+}
+
+.homeContent {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.homeImage {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.content1, .content2, .content3  {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+
+.homeH1 {
+  margin-top: 175px;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.homeLinks {
+  text-decoration: none;
+  font-weight: normal;
+  color: inherit;
+}
+
+.homeLinks:hover {
+  color: ghostwhite;
+}
+
+.homeH3 {
+  text-align: center;
+  margin: 0 auto 5%;
+  width: 80%;
+}
+
+.toAboutButton {
+  margin-top: 50px;
+  background-color: #333745;
+  border: 3px solid ghostwhite;
+  border-radius: 5px;
+  color: ghostwhite;
+  font-size: 1.6em;
+}
+
+.toAboutButton:hover {
+  border: 3px solid #333745;
+  background-color: ghostwhite;
+  color: #333745;
+}
+
+.toAboutButton:active, .toAboutButton:focus {
+  border: 3px solid #333745;
+  text-decoration: underline;
+  background-color: ghostwhite;
+  color: #333745;
+  box-shadow: none;
+  outline: none;
+}
