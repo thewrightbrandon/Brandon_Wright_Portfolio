@@ -119,8 +119,13 @@ h4 {
 
 /* ABOUT */
 
+.aboutH1 {
+  margin-top: 160px;
+  text-align: center;
+}
+
 .aboutDiv {
-  margin-top: 150px;
+  /* margin-top: 150px; */
   margin-bottom: 75px;
   display: flex;
 }
@@ -134,7 +139,7 @@ h4 {
 
 .aboutImage {
   display: block;
-  width: 100%;
+  width: 90%;
   background-color: ghostwhite;
   border: 3px solid #333745;
   box-sizing: border-box;
@@ -150,8 +155,43 @@ h4 {
 .aboutContextDiv {
   width: 47%;
   flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 
+.brandH1 {
+  text-align: center;
+}
+
+.brandDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5% auto 8%;
+  text-align: center;
+}
+
+.toPortfolioButton {
+  background-color: #333745;
+  border: 3px solid ghostwhite;
+  color: ghostwhite;
+  font-size: 1.2em;
+}
+
+.toPortfolioButton:hover {
+  border: 3px solid #333745;
+  background-color: ghostwhite;
+  color: #333745;
+}
+
+.toPortfolioButton:active, .toPortfolioButton:focus {
+  border: 3px solid #333745;
+  text-decoration: underline;
+  background-color: ghostwhite;
+  color: #333745;
+  box-shadow: none;
+  outline: none;
+}
 
 /* PORTFOLIO */
 

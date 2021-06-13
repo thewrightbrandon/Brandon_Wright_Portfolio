@@ -11,8 +11,9 @@ class Portfolio extends React.Component {
           <h1 className="text-center mt-4">Resumé</h1>
           <hr className="divider my-6" />
           <div className="resumeDiv">
-            <a href="/" rel="noreferrer" target="_blank" >
-              <button className="btn btn-light resumeButton">Click To Download Resume</button>
+            <a href="https://drive.google.com/file/d/1zbZT0EWzT7nIl5qX0NoEOD9bAewm50oN/view"
+            rel="noreferrer" target="_blank" >
+              <button className="btn btn-light resumeButton">Click To View Resume</button>
             </a>
           </div>
         </div>
