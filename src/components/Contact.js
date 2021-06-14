@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Scroll from './Scroll'
+
 class Contact extends React.Component {
 
   render = () => {
@@ -31,6 +33,7 @@ class Contact extends React.Component {
               </div>
             </a>
           </div>
+          <Scroll />
         </div>
       </div>
     )

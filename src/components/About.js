@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Scroll from './Scroll'
+
 class About extends React.Component {
 
   render = () => {
@@ -31,6 +33,7 @@ class About extends React.Component {
             <button className="toPortfolioButton">View My Work</button>
           </a>
         </div>
+        <Scroll />
       </div>
     )
   }
