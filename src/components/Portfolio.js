@@ -34,10 +34,10 @@ class Portfolio extends React.Component {
               <div className="mb-4 projectContextDiv">
                 <h3 className="projectTitle">Pokemon Adventure</h3>
                 <p>
-                  SPA built with JS, jQuery and AJAX.
+                  A SPA built with JS, jQuery and AJAX.
                 </p>
                 <p>
-                  Welcome to the world of Pokémon! As you make your way through the app it will guide you through everything you need to know about becoming a Pokémon Trainer! Learn about the world and the creatures who inhabit it, what the road looks like ahead and what you'll need to be successful on your journey! You may even make a new friend!
+                  Welcome to the world of Pokémon! As you make your way through the app, it will guide you through everything you need to know about becoming a Pokémon Trainer! Learn about the world and the creatures who inhabit it, what the road looks like ahead, and what you'll need to be successful on your journey! You may even make a new friend!
                 </p>
                 <p>
                   This build was an exercise in complex user interface modules, navigating & manipulating the DOM, and inserting data into the DOM received from an external API.
@@ -64,14 +64,24 @@ class Portfolio extends React.Component {
               <div className="mb-4 projectContextDiv">
                 <h3 className="projectTitle">So Many Friends!</h3>
                 <p>
-                  SPA built with JS, jQuery and AJAX.
+                  A Full-Stack CRUD MPA built with JS(EJS), Express, MongoDB, Mongoose and NodeJS.
                 </p>
                 <p>
-                  Welcome to the world of Pokémon! As you make your way through the app it will guide you through everything you need to know about becoming a Pokémon Trainer! Learn about the world and the creatures who inhabit it, what the road looks like ahead and what you'll need to be successful on your journey! You may even make a new friend!
+                  So Many Friends is a pet adoption app that allows users to filter through a database of adoptable pets. Authentication is implemented to allow user and admin accounts to be created. Bcrypt was used for secure encryption of user accounts. Users have limited authorization while admins are given full CRUD access.
                 </p>
                 <p>
-                  This build was an exercise in complex user interface modules, navigating & manipulating the DOM, and inserting data into the DOM received from an external API.
+                  This build was an exercise in building full-stack CRUD applications, MVC file structures, RESTful routes, and incorporating Embedded JS.
                 </p>
+                <div className="projectButtonsDiv">
+                  <a className="projectLinks" href="https://github.com/thewrightbrandon/bwright_p2_CRUD"
+                  rel="noreferrer" target="_blank">
+                    <button className="projectButtons">Github Repo</button>
+                  </a>
+                  <a className="projectLinks" href="https://so-many-friends.herokuapp.com/"
+                  rel="noreferrer" target="_blank">
+                    <button className="projectButtons">Live Site</button>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -84,14 +94,24 @@ class Portfolio extends React.Component {
               <div className="mb-4 projectContextDiv">
                 <h3 className="projectTitle">Potluck</h3>
                 <p>
-                  SPA built with JS, jQuery and AJAX.
+                  A Full-Stack CRUD SPA built with JS, React, Express, MongoDB, Mongoose and NodeJS. I had the pleasure of collaborating with <a href="https://github.com/lanegrim" rel="noreferrer" target="_blank">Lane Grimaud</a> on this application.
                 </p>
                 <p>
-                  Welcome to the world of Pokémon! As you make your way through the app it will guide you through everything you need to know about becoming a Pokémon Trainer! Learn about the world and the creatures who inhabit it, what the road looks like ahead and what you'll need to be successful on your journey! You may even make a new friend!
+                  Potluck is a recipe-sharing app that allows users to share their favorite recipes as well as finding new recipes to try. Implementing various filtering features handled by the front end improves the user's search experience. The recipe forms include dynamic inputs to allow the user to add or remove ingredients and/or recipe steps. The use of Authentication and Authorization allowed for account creation as well as limiting the user's edit and delete functionality to their own recipes.
                 </p>
                 <p>
-                  This build was an exercise in complex user interface modules, navigating & manipulating the DOM, and inserting data into the DOM received from an external API.
+                  This build was an exercise in working collaboratively on an application, a Kanban-style workflow with daily scrums, Full-Stack Single Page Applications, React with multiple class components, and the MERN stack.
                 </p>
+                <div className="projectButtonsDiv">
+                  <a className="projectLinks" href="https://github.com/lanegrim/Potluck"
+                  rel="noreferrer" target="_blank">
+                    <button className="projectButtons">Github Repo</button>
+                  </a>
+                  <a className="projectLinks" href="https://thepotluck.herokuapp.com/"
+                  rel="noreferrer" target="_blank">
+                    <button className="projectButtons">Live Site</button>
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -104,14 +124,24 @@ class Portfolio extends React.Component {
               <div className="mb-4 projectContextDiv">
                 <h3 className="projectTitle">The Cocktail Concierge</h3>
                 <p>
-                  SPA built with JS, jQuery and AJAX.
+                  A Full-Stack SPA built with JS, React, C#, .NET Core, PostgreSQL and Docker.
                 </p>
                 <p>
-                  Welcome to the world of Pokémon! As you make your way through the app it will guide you through everything you need to know about becoming a Pokémon Trainer! Learn about the world and the creatures who inhabit it, what the road looks like ahead and what you'll need to be successful on your journey! You may even make a new friend!
+                  The Cocktail Concierge was created for the indecisive bar patron. This app will assist the user in discovering new cocktails and potentially their new go-to drink! Various filter features allow the user to quickly scour through the database. This application represents an insightful experience of learning new tech outside of a classroom environment. This application is still in early development and will serve as a tool to continue to learn about C# and .NET Core.
                 </p>
                 <p>
-                  This build was an exercise in complex user interface modules, navigating & manipulating the DOM, and inserting data into the DOM received from an external API.
+                  This build was an exercise in learning C# and .NET Core, using React Hooks and functional components, building & consuming an API, and querying a SQL database.
                 </p>
+                <div className="projectButtonsDiv">
+                  <a className="projectLinks" href="https://github.com/thewrightbrandon/The_Cocktail_Concierge"
+                  rel="noreferrer" target="_blank">
+                    <button className="projectButtons">Github Repo</button>
+                  </a>
+                  <a className="projectLinks" href="https://the-cocktail-concierge.herokuapp.com/"
+                  rel="noreferrer" target="_blank">
+                    <button className="projectButtons">Live Site</button>
+                  </a>
+                </div>
               </div>
             </div>
 
