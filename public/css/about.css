@@ -1,8 +1,10 @@
 /* ABOUT */
 
 .aboutH1 {
-  margin-top: 160px;
+  margin-top: 175px;
   text-align: center;
+  font-size: 3.5em;
+  text-shadow: 2px 2px 1px ghostwhite;
 }
 
 .aboutH2 {
@@ -59,6 +61,8 @@
 
 .brandH1 {
   text-align: center;
+  font-size: 3.5em;
+  text-shadow: 2px 2px 1px ghostwhite;
 }
 
 .brandDiv {
@@ -74,9 +78,9 @@
   border: 3px solid ghostwhite;
   border-radius: 5px;
   color: ghostwhite;
-  font-size: 1.4em;
-  margin-top: 10%;
-  margin-bottom: 50px;
+  font-size: 2.2em;
+  margin-top: 12%;
+  margin-bottom: 40px;
 }
 
 .toPortfolioButton:hover {
