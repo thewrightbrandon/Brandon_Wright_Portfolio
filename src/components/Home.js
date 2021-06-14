@@ -1,7 +1,5 @@
 import React from 'react'
 
-import Scroll from './Scroll'
-
 class Home extends React.Component {
 
   render = () => {
@@ -30,7 +28,6 @@ class Home extends React.Component {
               </div>
             </a>
           </div>
-          <Scroll />
         </div>
       </div>
     )

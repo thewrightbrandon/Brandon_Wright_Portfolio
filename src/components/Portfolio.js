@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Icons from './Icons'
-import Scroll from './Scroll'
 
 class Portfolio extends React.Component {
 
@@ -151,8 +150,6 @@ class Portfolio extends React.Component {
                 <button className="toContactButton">Let's Connect!</button>
               </a>
             </div>
-
-            <Scroll />
 
         </div>
       </div>

@@ -8,6 +8,7 @@ import Home from './components/Home'
 import About from './components/About'
 import Portfolio from './components/Portfolio'
 import Contact from './components/Contact'
+import ScrollToTop from './components/ScrollToTop'
 
 class App extends React.Component {
 
@@ -15,6 +16,7 @@ class App extends React.Component {
 
     return (
       <BrowserRouter>
+        <ScrollToTop />
         <div>
           <Header />
             <Switch>

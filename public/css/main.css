@@ -39,6 +39,7 @@ hr {
   z-index: 1;
   border: 3px solid black;
   background-color: ghostwhite;
+  display: none;
 }
 
 #scrollToTopButton:hover {
@@ -92,6 +93,11 @@ hr {
     .projectImageDiv, .projectContextDiv, .aboutImageDiv, .aboutContextDiv {
       width: 80%;
       margin: 5% auto;
+      text-align: center;
+    }
+
+    .projectLinks {
+      margin: 2% auto;
     }
 
     .aboutImage {
@@ -138,7 +144,7 @@ hr {
       text-shadow: 3px 3px 1px ghostwhite;
     }
 
-    .contactH1, .aboutH1 {
+    .contactH1, .aboutH1, .portfolioDiv {
       margin-top: 125px;
     }
 
