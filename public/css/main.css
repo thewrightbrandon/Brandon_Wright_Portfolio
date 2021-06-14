@@ -59,7 +59,7 @@ body {
     }
 
     .projectImageDiv, .projectContextDiv, .aboutImageDiv, .aboutContextDiv {
-      width: 75%;
+      width: 80%;
       margin: 5% auto;
     }
 
@@ -75,18 +75,18 @@ body {
 
   }
 
-  @media screen and (max-width: 768px) {
-
-    .aboutH2 {
-      font-size: 1.9em;
-    }
-
-  }
-
   @media screen and (max-width: 800px) {
 
     .homeImage, .contactImage {
       width: 250px;
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .aboutH2 {
+      font-size: 1.9em;
     }
 
   }
@@ -144,6 +144,11 @@ body {
         font-size: 2em;
       }
 
+      .projectImageDiv, .projectContextDiv, .aboutImageDiv, .aboutContextDiv {
+        width: 95%;
+
+      }
+
   }
 
 
@@ -174,6 +179,10 @@ body {
 
     .resumeImage {
       width: 300px;
+    }
+
+    .projectButtons {
+      font-size: 1.5em;
     }
 
   }
