@@ -15,11 +15,11 @@ class About extends React.Component {
             <div className="mb-4 aboutContextDiv">
               <h2 className="aboutH2">Hey, I'm Brandon!</h2>
               <img className="peaceSign" src="https://i.imgur.com/ss6zp15.png" alt="Peace Hand" />
-              <h4 className="aboutH4">- Boston Born -</h4>
-              <h4 className="aboutH4">- Cocktail Creator -</h4>
-              <h4 className="aboutH4">- Coffee Consumer -</h4>
-              <h4 className="aboutH4">- Cats Are Cool -</h4>
-              <h4 className="aboutH4">- All Things Nerdy -</h4>
+              <h3 className="aboutH3">- Boston Born -</h3>
+              <h3 className="aboutH3">- Cocktail Creator -</h3>
+              <h3 className="aboutH3">- Coffee Consumer -</h3>
+              <h3 className="aboutH3">- Cats Are Cool -</h3>
+              <h3 className="aboutH3">- All Things Nerdy -</h3>
             </div>
           </div>
         </div>

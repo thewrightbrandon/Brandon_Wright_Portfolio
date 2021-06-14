@@ -19,14 +19,38 @@ body {
   background: #C5D4E7;
 }
 
+hr {
+  border-top: 5px solid black;
+}
+
 
 /* GENERAL FONTS */
 
+body {
+  font-family: 'Oswald', sans-serif;
+}
 
 /* MEDIA QUERIES */
 
 
   /* MAX WIDTH */
+
+  @media screen and (max-width: 1160px) {
+
+    .homeContent, .contactContent {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .homeImage {
+      width: 350px;
+    }
+
+    .contactImage {
+      width: 300px;
+    }
+
+  }
 
   @media screen and (max-width: 1100px) {
 
@@ -44,13 +68,25 @@ body {
       margin: 0 auto;
     }
 
+    .homeH1 {
+      font-size: 4em;
+      text-shadow: 4px 4px 2px ghostwhite;
+    }
+
+  }
+
+  @media screen and (max-width: 768px) {
+
+    .aboutH2 {
+      font-size: 1.9em;
+    }
+
   }
 
   @media screen and (max-width: 800px) {
 
-    .homeContent {
-      flex-direction: column;
-      align-items: center;
+    .homeImage, .contactImage {
+      width: 250px;
     }
 
   }
@@ -65,8 +101,14 @@ body {
       font-size: 1.2em;
     }
 
-    .resumeButton {
-      font-size: 1em;
+    .homeH1 {
+      font-size: 3em;
+      margin-top: 125px;
+      text-shadow: 3px 3px 1px ghostwhite;
+    }
+
+    .contactH1, .aboutH1 {
+      margin-top: 125px;
     }
 
   }
@@ -75,6 +117,23 @@ body {
 
       .nav-link {
         font-size: .8em;
+      }
+
+      .homeImage, .contactImage {
+        width: 175px;
+      }
+
+      .resumeButton, .toContactButton {
+        font-size: 1.3em;
+      }
+
+      .homeH1 {
+        font-size: 2.5em;
+        margin-top: 125px;
+      }
+
+      .contactH1, .aboutH1 {
+        margin-top: 125px;
       }
 
   }
@@ -95,6 +154,14 @@ body {
 
     .homeImage {
       width: 350px;
+    }
+
+    .contactImage {
+      width: 300px;
+    }
+
+    .homeH1 {
+      font-size: 7em;
     }
 
   }

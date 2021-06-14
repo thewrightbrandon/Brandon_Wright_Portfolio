@@ -5,7 +5,8 @@ class Home extends React.Component {
   render = () => {
     return (
       <div>
-        <h1 className="text-focus-in homeH1">BRANDON WRIGHT</h1>
+        <h1 className="homeH1">BRANDON WRIGHT</h1>
+        <hr className="homeDivider"/>
         <div className="homeDiv">
           <div className="homeContent">
             <a className="homeLinks" href="/About">

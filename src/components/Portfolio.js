@@ -8,8 +8,8 @@ class Portfolio extends React.Component {
     return (
       <div className="portfolioDiv">
         <div className="container col-lg-10">
-          <h1 className="text-center mt-4">RESUMÉ</h1>
-          <hr className="divider my-6" />
+          <h1 className="portfolioH1">RESUMÉ</h1>
+          <hr />
           <div className="resumeDiv">
             <a href="https://drive.google.com/file/d/1zbZT0EWzT7nIl5qX0NoEOD9bAewm50oN/view"
             rel="noreferrer" target="_blank" >
@@ -19,8 +19,8 @@ class Portfolio extends React.Component {
         </div>
         <Icons />
         <div className="container col-lg-10">
-          <h1 className="text-center mt-4">RECENT PROJECTS</h1>
-          <hr className="divider my-6" />
+          <h1 className="portfolioH1">RECENT PROJECTS</h1>
+          <hr />
 
             <div className="projectOne">
               <div className="mb-4 projectImageDiv">

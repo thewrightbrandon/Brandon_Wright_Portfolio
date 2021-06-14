@@ -25,8 +25,8 @@ class Icons extends React.Component {
     return (
       <div>
         <div className="container col-lg-10">
-          <h1 className="text-center mt-3">SKILLS & TECHNOLOGIES</h1>
-          <hr className="divider my-6" />
+          <h1 className="portfolioH1">SKILLS & TECHNOLOGIES</h1>
+          <hr />
           <div className="row">
             <div className="col-3 text-center">
               <div className="mt-4">
