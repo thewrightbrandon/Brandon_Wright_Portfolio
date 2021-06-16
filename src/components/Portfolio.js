@@ -27,7 +27,7 @@ class Portfolio extends React.Component {
           <hr />
             <div className="projectOne">
               <div className="mb-4 projectImageDiv">
-                <a href="https://upbeat-clarke-71de29.netlify.app/" rel="noreferrer" target="_blank">
+                <a className="projectImageLink" href="https://upbeat-clarke-71de29.netlify.app/" rel="noreferrer" target="_blank">
                   <img className="projectImage" src="images/Project1Snap.PNG" alt="First Project" />
                 </a>
               </div>
@@ -57,7 +57,7 @@ class Portfolio extends React.Component {
 
             <div className="projectTwo">
               <div className="mb-4 projectImageDiv">
-                <a href="https://so-many-friends.herokuapp.com/" rel="noreferrer" target="_blank">
+                <a className="projectImageLink" href="https://so-many-friends.herokuapp.com/" rel="noreferrer" target="_blank">
                   <img className="projectImage" src="images/Project2Snap.PNG" alt="Second Project" />
                 </a>
               </div>
@@ -87,7 +87,7 @@ class Portfolio extends React.Component {
 
             <div className="projectThree">
               <div className="mb-4 projectImageDiv">
-                <a href="https://thepotluck.herokuapp.com/" rel="noreferrer" target="_blank">
+                <a className="projectImageLink" href="https://thepotluck.herokuapp.com/" rel="noreferrer" target="_blank">
                   <img className="projectImage" src="images/Project3Snap.PNG" alt="Third Project" />
                 </a>
               </div>
@@ -117,7 +117,7 @@ class Portfolio extends React.Component {
 
             <div className="projectFour">
               <div className="mb-4 projectImageDiv">
-                <a href="https://the-cocktail-concierge.herokuapp.com/" rel="noreferrer" target="_blank">
+                <a className="projectImageLink" href="https://the-cocktail-concierge.herokuapp.com/" rel="noreferrer" target="_blank">
                   <img className="projectImage" src="images/FinalProjectSnap.PNG" alt="Fourth Project" />
                 </a>
               </div>
