@@ -1,7 +1,6 @@
 import React from 'react'
 
 import { ReactComponent as Javascript } from '../icons/javascript.svg'
-// import { ReactComponent as Atom } from '../icons/atom-icon.svg'
 import { ReactComponent as Bootstrap } from '../icons/bootstrap.svg'
 import { ReactComponent as C } from '../icons/c-sharp.svg'
 import { ReactComponent as CSS3 } from '../icons/css-3.svg'
