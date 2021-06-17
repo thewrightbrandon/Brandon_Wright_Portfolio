@@ -10,7 +10,7 @@ class About extends React.Component {
         <div className="container aboutDiv">
           <div className="aboutMeDiv">
             <div className="mb-4 aboutImageDiv">
-              <img className="aboutImage" src="images/me.jpg" alt="Brandon" />
+              <img className="aboutImage" src="images/B.jpg" alt="Brandon" />
             </div>
             <div className="mb-4 aboutContextDiv">
               <h2 className="aboutH2">Hey, I'm Brandon!</h2>
