@@ -11,11 +11,11 @@ class Portfolio extends React.Component {
           <h1 className="portfolioH1">RESUMÉ</h1>
           <hr />
           <div className="resumeDiv">
-            <a className="resumeLink" href="https://drive.google.com/file/d/1zbZT0EWzT7nIl5qX0NoEOD9bAewm50oN/view"
+            <a className="resumeLink" href="https://drive.google.com/file/d/1Xi_5lehdOnOkTE5N45yOL8zTf4qyQW8z/view?usp=sharing"
             rel="noreferrer" target="_blank" >
               <img className="resumeImage" src="images/BMW-Resume.PNG" alt="Resume" />
             </a>
-            <a href="https://drive.google.com/file/d/1zbZT0EWzT7nIl5qX0NoEOD9bAewm50oN/view"
+            <a href="https://drive.google.com/file/d/1Xi_5lehdOnOkTE5N45yOL8zTf4qyQW8z/view?usp=sharing"
             rel="noreferrer" target="_blank" >
               <button className="btn btn-light resumeButton">Click To View Resume</button>
             </a>
