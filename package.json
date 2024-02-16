@@ -10,15 +10,21 @@
     "react-bootstrap": "^1.6.1",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^5.0.1",
     "react-scroll-up-button": "^1.6.4",
     "web-vitals": "^1.1.2"
+  },
+  "engines" : { 
+  "npm" : ">=8.0.0 <9.0.0",
+  "node" : ">=16.0.0 <17.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "requirements-check": "babel-node check-version.js",
+    "postinstall": "npm run requirements-check"
   },
   "eslintConfig": {
     "extends": [
