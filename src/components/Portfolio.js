@@ -13,7 +13,7 @@ class Portfolio extends React.Component {
           <div className="resumeDiv">
             <a className="resumeLink" href="https://drive.google.com/file/d/1XaGKsp3ESGYcHaaK1QWcY8BpbRjPYeK3/view?usp=sharing"
             rel="noreferrer" target="_blank" >
-              <img className="resumeImage" src="images/BMW-Resume.PNG" alt="Resume" />
+              <img className="resumeImage" src="images/brandon_resume_screenshot.png" alt="Resume" />
             </a>
             <a href="https://drive.google.com/file/d/1XaGKsp3ESGYcHaaK1QWcY8BpbRjPYeK3/view?usp=sharing" 
               rel="noreferrer" target="_blank" >
