@@ -11,12 +11,12 @@ class Portfolio extends React.Component {
           <h1 className="portfolioH1">RESUMÉ</h1>
           <hr />
           <div className="resumeDiv">
-            <a className="resumeLink" href="https://drive.google.com/file/d/1Xi_5lehdOnOkTE5N45yOL8zTf4qyQW8z/view?usp=sharing"
+            <a className="resumeLink" href="https://drive.google.com/file/d/1XaGKsp3ESGYcHaaK1QWcY8BpbRjPYeK3/view?usp=sharing"
             rel="noreferrer" target="_blank" >
               <img className="resumeImage" src="images/BMW-Resume.PNG" alt="Resume" />
             </a>
-            <a href="https://drive.google.com/file/d/1Xi_5lehdOnOkTE5N45yOL8zTf4qyQW8z/view?usp=sharing"
-            rel="noreferrer" target="_blank" >
+            <a href="https://drive.google.com/file/d/1XaGKsp3ESGYcHaaK1QWcY8BpbRjPYeK3/view?usp=sharing" 
+              rel="noreferrer" target="_blank" >
               <button className="btn btn-light resumeButton">Click To View Resume</button>
             </a>
           </div>
@@ -57,7 +57,7 @@ class Portfolio extends React.Component {
 
             <div className="projectTwo">
               <div className="mb-4 projectImageDiv">
-                <a className="projectImageLink" href="https://so-many-friends.herokuapp.com/" rel="noreferrer" target="_blank">
+                <a className="projectImageLink" href="https://so-many-friends-ab3402db4584.herokuapp.com/" rel="noreferrer" target="_blank">
                   <img className="projectImage" src="images/Project2Snap.PNG" alt="Second Project" />
                 </a>
               </div>
@@ -77,7 +77,7 @@ class Portfolio extends React.Component {
                   rel="noreferrer" target="_blank">
                     <button className="projectButtons">Github Repo</button>
                   </a>
-                  <a className="projectLinks" href="https://so-many-friends.herokuapp.com/"
+                  <a className="projectLinks" href="https://so-many-friends-ab3402db4584.herokuapp.com/"
                   rel="noreferrer" target="_blank">
                     <button className="projectButtons">Live Site</button>
                   </a>
@@ -87,7 +87,7 @@ class Portfolio extends React.Component {
 
             <div className="projectThree">
               <div className="mb-4 projectImageDiv">
-                <a className="projectImageLink" href="https://thepotluck.herokuapp.com/" rel="noreferrer" target="_blank">
+                <a className="projectImageLink" href="https://potluck-recipes-7dbbecd03bcc.herokuapp.com/" rel="noreferrer" target="_blank">
                   <img className="projectImage" src="images/Project3Snap.PNG" alt="Third Project" />
                 </a>
               </div>
@@ -103,11 +103,11 @@ class Portfolio extends React.Component {
                   This build was an exercise in working collaboratively on an application, a Kanban-style workflow with daily scrums, Full-Stack Single Page Applications, React with multiple class components, and the MERN stack.
                 </p>
                 <div className="projectButtonsDiv">
-                  <a className="projectLinks" href="https://github.com/lanegrim/Potluck"
+                  <a className="projectLinks" href="https://github.com/thewrightbrandon/Potluck"
                   rel="noreferrer" target="_blank">
                     <button className="projectButtons">Github Repo</button>
                   </a>
-                  <a className="projectLinks" href="https://thepotluck.herokuapp.com/"
+                  <a className="projectLinks" href="https://potluck-recipes-7dbbecd03bcc.herokuapp.com/"
                   rel="noreferrer" target="_blank">
                     <button className="projectButtons">Live Site</button>
                   </a>
@@ -117,7 +117,7 @@ class Portfolio extends React.Component {
 
             <div className="projectFour">
               <div className="mb-4 projectImageDiv">
-                <a className="projectImageLink" href="https://the-cocktail-concierge.herokuapp.com/" rel="noreferrer" target="_blank">
+                <a className="projectImageLink" href="https://github.com/thewrightbrandon/The_Cocktail_Concierge" rel="noreferrer" target="_blank">
                   <img className="projectImage" src="images/FinalProjectSnap.PNG" alt="Fourth Project" />
                 </a>
               </div>
@@ -136,10 +136,6 @@ class Portfolio extends React.Component {
                   <a className="projectLinks" href="https://github.com/thewrightbrandon/The_Cocktail_Concierge"
                   rel="noreferrer" target="_blank">
                     <button className="projectButtons">Github Repo</button>
-                  </a>
-                  <a className="projectLinks" href="https://the-cocktail-concierge.herokuapp.com/"
-                  rel="noreferrer" target="_blank">
-                    <button className="projectButtons">Live Site</button>
                   </a>
                 </div>
               </div>

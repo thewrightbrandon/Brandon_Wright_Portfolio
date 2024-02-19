@@ -2,15 +2,11 @@ import React from 'react'
 
 import { ReactComponent as Javascript } from '../icons/javascript.svg'
 import { ReactComponent as Bootstrap } from '../icons/bootstrap.svg'
-import { ReactComponent as C } from '../icons/c-sharp.svg'
 import { ReactComponent as CSS3 } from '../icons/css-3.svg'
-import { ReactComponent as Django } from '../icons/django-icon.svg'
-import { ReactComponent as Dotnet } from '../icons/dotnet.svg'
 import { ReactComponent as Express } from '../icons/express.svg'
 import { ReactComponent as Github } from '../icons/github-icon.svg'
 import { ReactComponent as Git } from '../icons/git-icon.svg'
 import { ReactComponent as Html } from '../icons/html-5.svg'
-import { ReactComponent as Jquery } from '../icons/jquery.svg'
 import { ReactComponent as Mongodb } from '../icons/mongodb.svg'
 import { ReactComponent as Node } from '../icons/nodejs.svg'
 import { ReactComponent as Postgres } from '../icons/postgresql.svg'
@@ -36,13 +32,13 @@ class Icons extends React.Component {
             <div className="col-3 text-center">
               <div className="mt-4">
                 <Html />
-                <p className="mb-4 svgTags">HTML-5</p>
+                <p className="mb-4 svgTags">HTML5</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
                 <CSS3 />
-                <p className="mb-4 svgTags">CSS-3</p>
+                <p className="mb-4 svgTags">CSS3</p>
               </div>
             </div>
             <div className="col-3 text-center">
@@ -71,20 +67,8 @@ class Icons extends React.Component {
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
-                <Jquery />
-                <p className="mb-4 svgTags">jQuery</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
                 <Postgres />
                 <p className="mb-4 svgTags">PostgreSQL</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
-                <Django />
-                <p className="mb-4 svgTags">Django</p>
               </div>
             </div>
             <div className="col-3 text-center">
@@ -97,18 +81,6 @@ class Icons extends React.Component {
               <div className="mt-4">
                 <Bootstrap />
                 <p className="mb-4 svgTags">Bootstrap</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
-                <C />
-                <p className="mb-4 svgTags">C-Sharp</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
-                <Dotnet />
-                <p className="mb-4 svgTags">.NET Core</p>
               </div>
             </div>
             <div className="col-3 text-center">
