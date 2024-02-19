@@ -23,7 +23,7 @@ class Portfolio extends React.Component {
         </div>
         <Icons />
         <div className="container col-lg-10">
-          <h1 className="portfolioH1">RECENT PROJECTS</h1>
+          <h1 className="portfolioH1">PROJECTS</h1>
           <hr />
             <div className="projectOne">
               <div className="mb-4 projectImageDiv">
