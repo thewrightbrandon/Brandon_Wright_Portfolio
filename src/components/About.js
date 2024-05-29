@@ -17,7 +17,7 @@ class About extends React.Component {
               <img className="peaceSign" src="https://i.imgur.com/ss6zp15.png" alt="Peace Hand" />
               <h3 className="aboutH3">- Boston Native -</h3>
               <h3 className="aboutH3">- Hospitable Goober -</h3>
-              <h3 className="aboutH3">- Shorts 365 -</h3>
+              <h3 className="aboutH3">- Wearing Shorts 365 -</h3>
               <h3 className="aboutH3">- Cats Are Cool -</h3>
               <h3 className="aboutH3">- Above Average Nerdery -</h3>
             </div>
