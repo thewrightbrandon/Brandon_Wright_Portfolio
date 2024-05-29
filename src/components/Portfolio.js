@@ -13,9 +13,9 @@ class Portfolio extends React.Component {
           <div className="resumeDiv">
             <a className="resumeLink" href="https://drive.google.com/file/d/1XaGKsp3ESGYcHaaK1QWcY8BpbRjPYeK3/view?usp=sharing"
             rel="noreferrer" target="_blank" >
-              <img className="resumeImage" src="images/brandon_resume_screenshot.png" alt="Resume" />
+              <img className="resumeImage" src="images/resume_screenshot.png" alt="Resume" />
             </a>
-            <a href="https://drive.google.com/file/d/1XaGKsp3ESGYcHaaK1QWcY8BpbRjPYeK3/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1Qmj3iipZ8OQEqyC1wIL2Y8k6_kdPkf8d/view?usp=sharing" 
               rel="noreferrer" target="_blank" >
               <button className="btn btn-light resumeButton">Click To View Resume</button>
             </a>
