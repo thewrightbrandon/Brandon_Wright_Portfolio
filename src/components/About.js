@@ -10,16 +10,16 @@ class About extends React.Component {
         <div className="container aboutDiv">
           <div className="aboutMeDiv">
             <div className="mb-4 aboutImageDiv">
-              <img className="aboutImage" src="images/B.jpg" alt="Brandon" />
+              <img className="aboutImage" src="images/brandon-image.jpg" alt="Brandon" />
             </div>
             <div className="mb-4 aboutContextDiv">
               <h2 className="aboutH2">Hey, I'm Brandon!</h2>
               <img className="peaceSign" src="https://i.imgur.com/ss6zp15.png" alt="Peace Hand" />
-              <h3 className="aboutH3">- Boston Born -</h3>
-              <h3 className="aboutH3">- Cocktail Creator -</h3>
-              <h3 className="aboutH3">- Coffee Consumer -</h3>
+              <h3 className="aboutH3">- Boston Native -</h3>
+              <h3 className="aboutH3">- Hospitable Goober -</h3>
+              <h3 className="aboutH3">- Shorts 365 -</h3>
               <h3 className="aboutH3">- Cats Are Cool -</h3>
-              <h3 className="aboutH3">- All Things Nerdy -</h3>
+              <h3 className="aboutH3">- Above Average Nerdery -</h3>
             </div>
           </div>
         </div>
