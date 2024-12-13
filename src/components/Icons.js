@@ -31,6 +31,12 @@ class Icons extends React.Component {
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
+                <Python />
+                <p className="mb-4 svgTags">Python</p>
+              </div>
+            </div>
+            <div className="col-3 text-center">
+              <div className="mt-4">
                 <Html />
                 <p className="mb-4 svgTags">HTML5</p>
               </div>
@@ -43,14 +49,14 @@ class Icons extends React.Component {
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
-                <Node />
-                <p className="mb-4 svgTags">Node JS</p>
+                <ReactLogo />
+                <p className="mb-4 svgTags">React</p>
               </div>
             </div>
             <div className="col-3 text-center">
               <div className="mt-4">
-                <ReactLogo />
-                <p className="mb-4 svgTags">React</p>
+                <Node />
+                <p className="mb-4 svgTags">Node JS</p>
               </div>
             </div>
             <div className="col-3 text-center">
@@ -63,12 +69,6 @@ class Icons extends React.Component {
               <div className="mt-4">
                 <Mongodb />
                 <p className="mb-4 svgTags">MongoDB</p>
-              </div>
-            </div>
-            <div className="col-3 text-center">
-              <div className="mt-4">
-                <Python />
-                <p className="mb-4 svgTags">Python</p>
               </div>
             </div>
             <div className="col-3 text-center">

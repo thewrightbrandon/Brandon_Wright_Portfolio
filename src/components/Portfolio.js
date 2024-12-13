@@ -11,9 +11,9 @@ class Portfolio extends React.Component {
           <h1 className="portfolioH1">RESUMÉ</h1>
           <hr />
           <div className="resumeDiv">
-            <a className="resumeLink" href="https://drive.google.com/file/d/1Qmj3iipZ8OQEqyC1wIL2Y8k6_kdPkf8d/view?usp=sharing"
+            <a className="resumeLink" href="https://drive.google.com/file/d/1mbiKmJi0yCgXwkL5ySgzJSI_7uWzkde3/view?usp=sharing"
             rel="noreferrer" target="_blank" >
-              <img className="resumeImage" src="images/resume_screenshot.png" alt="Resume" />
+              <img className="resumeImage" src="images/resume_2025.png" alt="Resume" />
             </a>
             <a href="https://drive.google.com/file/d/1Qmj3iipZ8OQEqyC1wIL2Y8k6_kdPkf8d/view?usp=sharing" 
               rel="noreferrer" target="_blank" >
