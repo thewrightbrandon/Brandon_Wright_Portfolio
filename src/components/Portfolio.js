@@ -15,7 +15,7 @@ class Portfolio extends React.Component {
             rel="noreferrer" target="_blank" >
               <img className="resumeImage" src="images/resume_2025.png" alt="Resume" />
             </a>
-            <a href="https://drive.google.com/file/d/1Qmj3iipZ8OQEqyC1wIL2Y8k6_kdPkf8d/view?usp=sharing" 
+            <a href="https://drive.google.com/file/d/1mbiKmJi0yCgXwkL5ySgzJSI_7uWzkde3/view?usp=sharing" 
               rel="noreferrer" target="_blank" >
               <button className="btn btn-light resumeButton">Click To View Resume</button>
             </a>
